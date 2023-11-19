@@ -5,7 +5,6 @@ import {
   PopularProducts,
   Services,
   SuperQuality,
-  Subscribe,
 } from "./sections";
 import Nav from "./components/Nav";
 
