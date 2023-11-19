@@ -24,8 +24,11 @@ const Footer = () => {
             perfect size in store and get rewards.
           </p>
           <div className="flex items-center gap-5 mt-8">
-            {socialMedia.map((social) => (
-              <div className="flex justify-center items-center w-12 h-12 bg-white rounded-full hover:bg-baby-blue cursor-pointer">
+            {socialMedia.map((social, index) => (
+              <div
+                key={index}
+                className="flex justify-center items-center w-12 h-12 bg-white rounded-full hover:bg-baby-blue cursor-pointer"
+              >
                 <img src={social.src} alt={social.alt} width={24} height={24} />
               </div>
             ))}
