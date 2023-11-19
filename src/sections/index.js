@@ -5,12 +5,4 @@ import PopularProducts from "./PopularProducts";
 import Services from "./Services";
 import SuperQuality from "./SuperQuality";
 
-export {
-  Hero,
-  Footer,
-  CustomerReviews,
-  PopularProducts,
-  Services,
-  SuperQuality,
-  Subscribe,
-};
+export { Hero, Footer, CustomerReviews, PopularProducts, Services, SuperQuality };
