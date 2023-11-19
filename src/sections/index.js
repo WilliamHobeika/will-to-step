@@ -4,7 +4,6 @@ import CustomerReviews from "./CustomerReviews";
 import PopularProducts from "./PopularProducts";
 import Services from "./Services";
 import SuperQuality from "./SuperQuality";
-import Subscribe from "./Subscribe";
 
 export {
   Hero,
